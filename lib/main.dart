@@ -53,7 +53,7 @@ class PaginaDeInicio extends StatelessWidget {
               width: 200,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage('https://raw.githubusercontent.com/deyrajimenez/MisImagenes25/main/photo.jpg'),
+                  image: NetworkImage('https://github.com/deyrajimenez/MisImagenes25/blob/main/WhatsApp%20Image%202021-05-10%20at%2023.49.21.jpeg'),
                   fit: BoxFit.cover,
                 ),
                 //borderRadius: new BorderRadius.all(new Radius.circular(20.0)),
