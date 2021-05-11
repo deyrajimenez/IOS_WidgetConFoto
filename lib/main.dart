@@ -65,7 +65,7 @@ class PaginaInicio extends StatelessWidget {
                     ),
                     bottom: BorderSide(
                       color: Colors.black,
-                      width: 10.0,
+                      width: 5.0,
                     ), //fin de border size
                   ), //fin de border
                 ), //fin de boxdecoration
