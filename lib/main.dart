@@ -41,7 +41,7 @@ class PaginaDeInicio extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  'Deyra Jimenez\n6J - Programacion',
+                  'Deyra Jimenez',
                   style: TextStyle(fontSize: 18),
                   textAlign: TextAlign.center,
                 ),
@@ -53,7 +53,7 @@ class PaginaDeInicio extends StatelessWidget {
               width: 200,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage('https://raw.githubusercontent.com/Najeragim/imagenes/main/profile-picture.jpg'),
+                  image: NetworkImage('https://raw.githubusercontent.com/deyrajimenez/MisImagenes25/main/gato.jpeg'),
                   fit: BoxFit.cover,
                 ),
                 //borderRadius: new BorderRadius.all(new Radius.circular(20.0)),
@@ -86,6 +86,13 @@ class PaginaDeInicio extends StatelessWidget {
                     borderSide: BorderSide(
                       color: Colors.deepPurple,
                       width: 3.0,
+                    ),
+                    child: Center(
+                      child: Text(
+                        '6J - Programacion',
+                        style: TextStyle(fontSize: 18),
+                        textAlign: TextAlign.center,
+                      ),
                     ),
                   ),
                 ),
