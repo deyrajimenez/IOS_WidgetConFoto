@@ -32,7 +32,7 @@ class PaginaDeInicio extends StatelessWidget {
               height: 100,
               width: 200,
               decoration: BoxDecoration(
-                color: Colors.greenAccent[100],
+                color: Colors.purple[100],
                 borderRadius: BorderRadius.circular(22),
                 border: Border.all(
                   color: Colors.deepPurple,
@@ -53,7 +53,7 @@ class PaginaDeInicio extends StatelessWidget {
               width: 200,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage('https://raw.githubusercontent.com/deyrajimenez/MisImagenes25/main/gato.jpeg'),
+                  image: NetworkImage('https://raw.githubusercontent.com/deyrajimenez/MisImagenes25/main/photo.jpg'),
                   fit: BoxFit.cover,
                 ),
                 //borderRadius: new BorderRadius.all(new Radius.circular(20.0)),
@@ -86,13 +86,6 @@ class PaginaDeInicio extends StatelessWidget {
                     borderSide: BorderSide(
                       color: Colors.deepPurple,
                       width: 3.0,
-                    ),
-                    child: Center(
-                      child: Text(
-                        '6J - Programacion',
-                        style: TextStyle(fontSize: 18),
-                        textAlign: TextAlign.center,
-                      ),
                     ),
                   ),
                 ),
