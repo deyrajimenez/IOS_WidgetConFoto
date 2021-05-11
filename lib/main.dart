@@ -53,7 +53,7 @@ class PaginaInicio extends StatelessWidget {
                 height: 100,
                 width: 100,
                 child: Icon(
-                  Icons.account_box,
+                  DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/deyrajimenez/MisImagenes25/main/lensabl-0GfPlommtxM-unsplash.jpg"), alignment: Alignment.topCenter),
                   color: Colors.purple[50],
                   size: 100,
                 ),
